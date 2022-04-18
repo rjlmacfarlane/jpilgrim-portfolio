@@ -1,47 +1,23 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Jessica Pilgrim",
+    "description":"I am a visual artist and graphic designer using Adobe Creative Suite to bring your imagination to life. Keep scrolling to learn more.",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "email": "jmarie.pilgrim@gmail.com",
+    "phone": "902-809-2796",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city":"Halifax",
+      "state":"Nova Scotia"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "",
+    "resumedownload":"",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
       }
     ]
   },
@@ -109,76 +85,142 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Double Exposure",
+        "category":"",
         "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":""
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"Watercolour Bird",
+        "category":"",
         "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":""
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
+        "title":"Content Aware Sunset",
+        "category":"",
         "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":""
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "title":"Revelation",
+        "category":"",
         "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":""
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Eye Enhancement",
+        "category":"",
         "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":""
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Clipping Masks",
+        "category":"",
+        "image":"08.jpg",
+        "url":""
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"Secret Garden",
+        "category":"",
+        "image":"09.jpg",
+        "url":""
+      },
+      {
+        "title":"Peel the Sky",
+        "category":"",
+        "image":"10.jpg",
+        "url":""
+      },
+      {
+        "title":"Anaglyph",
+        "category":"",
+        "image":"12.jpg",
+        "url":""
+      },
+      {
+        "title":"Gradient",
+        "category":"",
+        "image":"13.jpg",
+        "url":""
+      },
+      {
+        "title":"Duotones",
+        "category":"",
+        "image":"18.jpg",
+        "url":""
+      },
+      {
+        "title":"Magazine Mockup",
+        "category":"",
+        "image":"14.jpg",
+        "url":""
+      },
+      {
+        "title":"Selective Hue",
+        "category":"",
+        "image":"15.jpg",
+        "url":""
+      },
+      {
+        "title":"Visual Decay",
+        "category":"",
+        "image":"16.jpg",
+        "url":""
+      },
+      {
+        "title":"Sunflower",
+        "category":"",
+        "image":"19.jpg",
+        "url":""
+      },
+      {
+        "title":"Photo Retouch",
+        "category":"",
+        "image":"20.jpg",
+        "url":""
+      },
+      {
+        "title":"Visual Decay II",
+        "category":"",
+        "image":"21.jpg",
+        "url":""
+      },
+      {
+        "title":"Marquee",
+        "category":"",
+        "image":"22.jpg",
+        "url":""
+      },
+      {
+        "title":"Vanishing Point",
+        "category":"",
+        "image":"17.jpg",
+        "url":""
+      },
+      {
+        "title":"Get Messy",
+        "category":"",
         "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":""
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Perpetual Pour",
+        "category":"",
+        "image":"07.gif",
+        "url":""
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Watercolour II",
+        "category":"",
+        "image":"23.jpg",
+        "url":""
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Watercolour III",
+        "category":"",
+        "image":"24.jpg",
+        "url":""
       }
     ]
   }
