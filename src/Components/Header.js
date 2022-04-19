@@ -3,6 +3,26 @@ import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 
 class Header extends Component {
+
+ getRandomInt() {
+    const bgSelector = Math.floor(Math.random() * 7);
+    let randomBg
+    switch (bgSelector) {
+      case 0: randomBg = 'color'; break;
+      case 1: randomBg = 'ball'; break;
+      case 2: randomBg = 'lines'; break;
+      case 3: randomBg = 'thick'; break;
+      case 4: randomBg = 'circle'; break;
+      case 5: randomBg = 'cobweb'; break;
+      case 6: randomBg = 'polygon'; break;
+      case 7: randomBg = 'square'; break;
+      default: randomBg = '';
+    }
+  return randomBg
+  }
+  
+
+
   render() {
     if (!this.props.data) return null;
 
@@ -13,7 +33,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        <ParticlesBg type={this.getRandomInt()} bg={true} color="#00004d"/>
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -37,14 +57,14 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#resume">
-                Resume
+              <a className="smoothscroll" href="#portfolio">
+                Works
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
+              <a className="smoothscroll" href="#resume">
+                Resume
               </a>
             </li>
 
@@ -59,7 +79,7 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              <h1 className="responsive-headline">I'm {name}.</h1>
             </Fade>
             <Fade bottom duration={1200}>
               <h3>{description}.</h3>
@@ -88,4 +108,7 @@ class Header extends Component {
   }
 }
 
+
+
 export default Header;
+

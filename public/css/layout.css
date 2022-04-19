@@ -56,12 +56,14 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
+   text-shadow: 2px 2px 10px #000000;
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
 }
 header .banner-text h3 {
+   text-shadow: 2px 2px 5px #000000;
    font: 18px/1.9em 'librebaskerville-regular', serif;
    color: #ddd;
    margin: 0 auto;
