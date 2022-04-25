@@ -5,7 +5,7 @@ import Fade from "react-reveal";
 class Header extends Component {
 
  getRandomInt() {
-    const bgSelector = Math.floor(Math.random() * 7);
+    const bgSelector = Math.floor(Math.random() * 8);
     let randomBg
     switch (bgSelector) {
       case 0: randomBg = 'color'; break;
@@ -16,7 +16,7 @@ class Header extends Component {
       case 5: randomBg = 'cobweb'; break;
       case 6: randomBg = 'polygon'; break;
       case 7: randomBg = 'square'; break;
-      default: randomBg = '';
+      default: randomBg = 'color';
     }
   return randomBg
   }
@@ -33,7 +33,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type={this.getRandomInt()} bg={true} color="#00004d"/>
+        <ParticlesBg type={this.getRandomInt()} bg={true} color="#4c0080"/>
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
